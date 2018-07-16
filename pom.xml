@@ -6,7 +6,11 @@
 	<groupId>com.ronglian</groupId>
 	<artifactId>iMonitor_v1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>common</module>
+		<module>elastic</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>iMonitor_v1</name>
 	<description>iMonitor_v1</description>
